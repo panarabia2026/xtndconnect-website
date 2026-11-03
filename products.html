@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — XTND Connect</title>
+  <meta name="description" content="Browse XTND Connect fiber optic cables, MTP/MPO assemblies, patch panels, splice closures, copper cabling, racks and cabinets." />
+  <meta name="theme-color" content="#0a1224" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Products</span></nav>
+        <h1 id="cat-title">All products</h1>
+        <p id="cat-desc">Browse the complete XTND Connect range of fiber, copper, enclosure and rack infrastructure.</p>
+      </div>
+    </section>
+
+    <section class="section-sm" id="catalog">
+      <div class="container catalog">
+        <aside class="filters" id="filters" aria-label="Product categories"></aside>
+        <div>
+          <div class="toolbar">
+            <label class="mobile-filter" style="width:100%"><span class="sr-only">Category</span><select class="select" id="mobile-cat" style="width:100%"></select></label>
+            <div class="search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+              <label class="sr-only" for="search">Search products</label>
+              <input id="search" type="search" placeholder="Search e.g. MTP, Cat6A, 22U, closure…" autocomplete="off" />
+            </div>
+            <label><span class="sr-only">Sort</span>
+              <select class="select" id="sort"><option value="featured">Featured</option><option value="az">Name A–Z</option><option value="za">Name Z–A</option></select>
+            </label>
+          </div>
+          <div class="chips" id="chips" role="group" aria-label="Sub-category"></div>
+          <div class="toolbar" style="margin-bottom:14px"><span class="result-meta" id="result-meta" aria-live="polite" style="margin-left:0"></span></div>
+          <div class="prod-grid" id="grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm" style="padding-top:24px">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2>Need a custom length, fiber count or connector?</h2>
+            <p>Most of our range is built to order. Tell us your spec and we'll configure it.</p>
+          </div>
+          <a class="btn btn-lg" href="contact.html#quote">Request a custom build</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/products.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>

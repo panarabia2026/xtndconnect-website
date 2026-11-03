@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — XTND Connect</title>
+  <meta name="description" content="Contact XTND Connect sales in Canada, the UK, the UAE and the USA, or request a quote online." />
+  <meta name="theme-color" content="#0a1224" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact</span></nav>
+        <span class="kicker">Contact us</span>
+        <h1>Let's talk about your project.</h1>
+        <p>Our engineers will come back with a recommended bill of materials and a quote.</p>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container">
+        <div class="channels">
+          <a class="channel reveal" href="mailto:sales@xtndconnect.com"><span class="ico" data-icon="mail"></span><span><strong>Email sales</strong><small>sales@xtndconnect.com</small></span></a>
+          <a class="channel reveal" style="--d:.05s" href="tel:+16477800004"><span class="ico" data-icon="phone"></span><span><strong>Call us</strong><small>+1 (647) 780 0004</small></span></a>
+          <a class="channel reveal" style="--d:.1s" href="https://wa.me/971552997862" target="_blank" rel="noopener"><span class="ico" data-icon="chat"></span><span><strong>WhatsApp</strong><small>+971 55 299 7862</small></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quote" style="padding-top:24px">
+      <div class="container contact">
+        <div class="reveal">
+          <span class="kicker">Regional offices</span>
+          <h2 class="h2">Close to your projects.</h2>
+          <a class="mail" href="mailto:sales@xtndconnect.com">sales@xtndconnect.com</a>
+          <ul class="offices" data-offices></ul>
+        </div>
+        <form class="form reveal" style="--d:.1s" data-mailto data-subject="Quote request" novalidate>
+          <h3 style="font-size:22px">Request a quote</h3>
+          <div class="field-row">
+            <label>Name<input name="name" required autocomplete="name" /></label>
+            <label>Company<input name="company" autocomplete="organization" /></label>
+          </div>
+          <div class="field-row">
+            <label>Email<input type="email" name="email" required autocomplete="email" /></label>
+            <label>Phone<input type="tel" name="phone" autocomplete="tel" /></label>
+          </div>
+          <div class="field-row">
+            <label>Region
+              <select name="region"><option>North America</option><option>United Kingdom / Europe</option><option>Middle East</option><option>Other</option></select>
+            </label>
+            <label>Interested in
+              <select name="interest">
+                <option>Fiber optic cables</option><option>Fiber networking / MTP®</option><option>Panels &amp; enclosures</option>
+                <option>Copper systems</option><option>Racks &amp; cabinets</option><option>Testers, tools &amp; laying equipment</option>
+                <option>Active components</option><option>Custom solution</option>
+              </select>
+            </label>
+          </div>
+          <label>Project details<textarea name="message" rows="5" required placeholder="Quantities, fiber counts, lengths, timeline…"></textarea></label>
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Send request</button>
+          <p class="form-note" role="status" aria-live="polite">Opens your email app with the details filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/products.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>
